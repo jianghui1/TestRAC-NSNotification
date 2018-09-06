@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  C.h
 //  TestRAC+NSNotification
 //
 //  Created by ys on 2018/9/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface C : UIViewController
 
 @end
-

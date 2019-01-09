@@ -28,7 +28,7 @@
 
 - (void)dealloc
 {
-    NSLog(@"c挂了");
+    NSLog(@"d挂了");
     [[NSNotificationCenter defaultCenter] removeObserver:_observer];
 }
 

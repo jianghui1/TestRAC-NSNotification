@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F2A44E53E859734E032E26D /* libPods-TestRAC+NSNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2BC8A864BD30D06FBC2B46 /* libPods-TestRAC+NSNotification.a */; };
+		5A0458D321E5DD4A0018A183 /* E.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0458D221E5DD4A0018A183 /* E.m */; };
 		5A528F47214131950095208F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528F46214131950095208F /* AppDelegate.m */; };
 		5A528F4D214131950095208F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A528F4B214131950095208F /* Main.storyboard */; };
 		5A528F4F214131960095208F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A528F4E214131960095208F /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		0D2BC8A864BD30D06FBC2B46 /* libPods-TestRAC+NSNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRAC+NSNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7B760B95324DB917A8CD34 /* libPods-TestRAC+NSNotificationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRAC+NSNotificationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0458D121E5DD4A0018A183 /* E.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = E.h; sourceTree = "<group>"; };
+		5A0458D221E5DD4A0018A183 /* E.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = E.m; sourceTree = "<group>"; };
 		5A528F42214131950095208F /* TestRAC+NSNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRAC+NSNotification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A528F45214131950095208F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A528F46214131950095208F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				5A528F7E2141358F0095208F /* C.m */,
 				5A528F8021413A980095208F /* D.h */,
 				5A528F8121413A980095208F /* D.m */,
+				5A0458D121E5DD4A0018A183 /* E.h */,
+				5A0458D221E5DD4A0018A183 /* E.m */,
 				5A528F4B214131950095208F /* Main.storyboard */,
 				5A528F4E214131960095208F /* Assets.xcassets */,
 				5A528F50214131960095208F /* LaunchScreen.storyboard */,
@@ -331,6 +336,7 @@
 				5A528F7F2141358F0095208F /* C.m in Sources */,
 				5A528F47214131950095208F /* AppDelegate.m in Sources */,
 				5A528F79214133D50095208F /* A.m in Sources */,
+				5A0458D321E5DD4A0018A183 /* E.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
